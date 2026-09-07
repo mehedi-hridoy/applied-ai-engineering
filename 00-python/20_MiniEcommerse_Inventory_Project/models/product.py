@@ -3,29 +3,33 @@ from abc import ABC, abstractmethod
 
 class Product(ABC):
     def __init__(self, product_id, name, price, quantity, category):
-        # TODO: store product_id, name, category directly.
-        # For price and quantity, decide: set via self.price = price
-        # (routes through your validating setters) or set the private
-        # attribute directly? Which gives you validation for free?
+        self.product_id  =  product_id
+        self.name = name
+        self.category = category
+
+        self.price = price
+        self.quantity = quantity
         pass
 
     @property
     def price(self):
-        pass
+        return  self._price
 
     @price.setter
     def price(self, value):
-        # raise ValueError if value < 0
-        pass
+        if value < 0:
+            raise ValueError("Price must be >= 0")
+        self._price = value
 
     @property
     def quantity(self):
-        pass
+        return self._quantity
 
     @quantity.setter
     def quantity(self, value):
-        # raise ValueError if value < 0
-        pass
+        if value <= 0:
+            raise ValueError("Quantity must be > 0")
+        self._quantity = value
 
     @abstractmethod
     def shipping_info(self):
