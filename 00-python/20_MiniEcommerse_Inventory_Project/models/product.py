@@ -51,15 +51,26 @@ class Product(ABC):
 
 class PhysicalProduct(Product):
     def __init__(self, product_id, name, price, quantity, category, weight_kg):
-        pass
+        super().__init__(product_id, name, price, quantity, category)
+        self.weight_kg = weight_kg
 
     def shipping_info(self):
-        pass
+        return f"Ships physically, weighs {self.weight_kg}kg"
 
 
 class DigitalProduct(Product):
     def __init__(self, product_id, name, price, quantity, category, file_size_mb):
-        pass
+        super().__init__(product_id, name, price, quantity, category)
+        self.file_size_mb = file_size_mb
 
     def shipping_info(self):
-        pass
+        return f"Digital delivery, {self.file_size_mb}MB download"
+
+# parts for better  understaanding the  need of  abstract  classes
+
+# mouse = PhysicalProduct("P001", "Wireless Mouse", 25.0, 12, "Electronics", 0.2)
+# print(mouse)                 # uses __str__ from Product
+# print(repr(mouse))            # uses __repr__ from Product, shows "PhysicalProduct(...)"
+# print(mouse.shipping_info())   # uses PhysicalProduct's own override
+
+# broken = PhysicalProduct("P002", "Bad Product", -10, 5, "Test", 1.0)   # should raise ValueError
