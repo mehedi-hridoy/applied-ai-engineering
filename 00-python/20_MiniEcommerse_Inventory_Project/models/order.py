@@ -1,6 +1,3 @@
-from datetime import datetime
-
-
 class OrderItem:
     """
     One line item within an order: a product, a quantity,
