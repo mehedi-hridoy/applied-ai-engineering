@@ -1,10 +1,16 @@
+from datetime import datetime
+from .exceptions import (
+    InvalidOrderStatusError,
+    InvalidQuantityError,
+    EmptyOrderError,
+    OutOfStockError,
+)
+
+
 class OrderItem:
     """
     One line item within an order: a product, a quantity,
     and the price at the time it was confirmed.
-
-    Notice price_at_purchase starts as None — it isn't known
-    until confirm() actually happens.
     """
 
     def __init__(self, product_id, quantity):
@@ -15,10 +21,20 @@ class OrderItem:
     def subtotal(self):
         """
         Return quantity * price_at_purchase.
-        Think about: what should this return if the order hasn't
-        been confirmed yet and price_at_purchase is still None?
+        If the order hasn't been confirmed yet, price_at_purchase is
+        still None — there's no meaningful subtotal yet, so return 0
+        rather than crashing with a TypeError (None * quantity).
         """
-        pass
+        if self.price_at_purchase is None:
+            return 0
+        return self.quantity * self.price_at_purchase
+
+    def __repr__(self):
+        return (
+            f"OrderItem(product_id={self.product_id!r}, "
+            f"quantity={self.quantity}, "
+            f"price_at_purchase={self.price_at_purchase})"
+        )
 
 
 class Order:
@@ -27,57 +43,89 @@ class Order:
     STATUS_CANCELLED = "cancelled"
 
     def __init__(self, order_id, customer_name):
-        # store order_id, customer_name, an empty list of OrderItems,
-        # status = STATUS_PENDING, and a created_at timestamp (datetime.now())
-        pass
+        self.order_id = order_id
+        self.customer_name = customer_name
+        self.items = []
+        self.status = Order.STATUS_PENDING
+        self.created_at = datetime.now()
 
     def add_item(self, product_id, quantity):
         """
         Add an OrderItem to this order.
-        Raise InvalidOrderStatusError if status is not pending
-        (can't add items to a confirmed or cancelled order).
-        Raise InvalidQuantityError if quantity <= 0.
         """
-        pass
+        if self.status != Order.STATUS_PENDING:
+            raise InvalidOrderStatusError(
+                f"Cannot add items to an order with status '{self.status}'"
+            )
+
+        if quantity <= 0:
+            raise InvalidQuantityError("Item quantity must be greater than 0")
+
+        self.items.append(OrderItem(product_id, quantity))
 
     def confirm(self, inventory):
         """
-        The core transaction method. For each item in this order:
-          1. Look up the current Product in `inventory`
-          2. Check stock is sufficient (inventory.reduce_stock handles this,
-             or check explicitly first — your call)
-          3. Lock in item.price_at_purchase from the product's CURRENT price
-          4. Reduce inventory stock for that product
-
-        Then set status = STATUS_CONFIRMED.
-
-        Raise EmptyOrderError if there are no items.
-        Raise InvalidOrderStatusError if already confirmed/cancelled.
-        Raise OutOfStockError if any item can't be fulfilled — and
-        think carefully here: if item 3 of 5 fails, what happens to
-        the stock already reduced for items 1 and 2? This is a real
-        edge case worth deciding deliberately.
+        The core transaction method — validates everything BEFORE
+        making any changes, so a failure partway through never
+        leaves inventory in a half-reduced, inconsistent state.
         """
-        pass
+        if self.status != Order.STATUS_PENDING:
+            raise InvalidOrderStatusError(
+                f"Cannot confirm an order with status '{self.status}'"
+            )
+
+        if not self.items:
+            raise EmptyOrderError("Cannot confirm an order with no items")
+
+        # PASS 1 — validate every item can actually be fulfilled.
+        # Nothing is changed yet; this just checks and raises early
+        # if ANY item would fail, before any stock is touched.
+        for item in self.items:
+            product = inventory.get_product(item.product_id)
+            if item.quantity > product.quantity:
+                raise OutOfStockError(
+                    f"Cannot confirm order: requested {item.quantity} of "
+                    f"'{product.name}', only {product.quantity} available"
+                )
+
+        # PASS 2 — everything validated, now it's safe to actually
+        # commit: lock in prices and reduce stock for real.
+        for item in self.items:
+            product = inventory.get_product(item.product_id)
+            item.price_at_purchase = product.price
+            inventory.reduce_stock(item.product_id, item.quantity)
+
+        self.status = Order.STATUS_CONFIRMED
 
     def cancel(self, inventory):
         """
-        If status is pending: just mark as cancelled, nothing to restock.
-        If status is confirmed: restock every item's quantity back into
-        inventory, THEN mark as cancelled.
-        Raise InvalidOrderStatusError if already cancelled.
+        If pending: just mark cancelled, nothing to restock.
+        If confirmed: restock every item back into inventory first.
         """
-        pass
+        if self.status == Order.STATUS_CANCELLED:
+            raise InvalidOrderStatusError("Order is already cancelled")
+
+        if self.status == Order.STATUS_CONFIRMED:
+            for item in self.items:
+                inventory.restock_product(item.product_id, item.quantity)
+
+        self.status = Order.STATUS_CANCELLED
 
     def total(self):
         """
         Sum of all item subtotals.
-        Good spot to use sum() with a generator expression, or reduce().
         """
-        pass
+        return sum(item.subtotal() for item in self.items)
 
     def __str__(self):
-        pass
+        return (
+            f"Order #{self.order_id} - {self.customer_name} "
+            f"[{self.status}] - ${self.total():.2f}"
+        )
 
     def __repr__(self):
-        pass
+        return (
+            f"Order(order_id={self.order_id!r}, "
+            f"customer_name={self.customer_name!r}, "
+            f"status={self.status!r}, items={len(self.items)})"
+        )
