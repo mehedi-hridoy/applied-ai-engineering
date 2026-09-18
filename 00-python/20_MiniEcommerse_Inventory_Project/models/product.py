@@ -6,7 +6,6 @@ class Product(ABC):
         self.product_id = product_id
         self.name = name
         self.category = category
-
         self.price = price
         self.quantity = quantity
 
@@ -26,13 +25,47 @@ class Product(ABC):
 
     @quantity.setter
     def quantity(self, value):
-        if value < 0:   # fixed: was <= 0, which wrongly rejected 0 (out of stock)
+        if value < 0:
             raise ValueError("Quantity must be >= 0")
         self._quantity = value
 
     @abstractmethod
     def shipping_info(self):
         pass
+
+    def to_dict(self):
+        """Return a plain dict representing this product for JSON storage."""
+        return {
+            "product_id": self.product_id,
+            "name": self.name,
+            "price": self.price,
+            "quantity": self.quantity,
+            "category": self.category,
+        }
+
+    @classmethod
+    def from_dict(cls, data):
+        """Create a product instance from a dictionary."""
+        product_type = data.get("type")
+        if product_type == "PhysicalProduct":
+            return PhysicalProduct(
+                data["product_id"],
+                data["name"],
+                data["price"],
+                data["quantity"],
+                data["category"],
+                data["weight_kg"],
+            )
+        if product_type == "DigitalProduct":
+            return DigitalProduct(
+                data["product_id"],
+                data["name"],
+                data["price"],
+                data["quantity"],
+                data["category"],
+                data["file_size_mb"],
+            )
+        raise ValueError(f"Unsupported product type: {product_type!r}")
 
     def __str__(self):
         return f"{self.name} - ${self.price:.2f} ({self.quantity} in stock)"
@@ -49,6 +82,7 @@ class Product(ABC):
             return NotImplemented
         return self.product_id == other.product_id
 
+
 class PhysicalProduct(Product):
     def __init__(self, product_id, name, price, quantity, category, weight_kg):
         super().__init__(product_id, name, price, quantity, category)
@@ -56,6 +90,23 @@ class PhysicalProduct(Product):
 
     def shipping_info(self):
         return f"Ships physically, weighs {self.weight_kg}kg"
+
+    def to_dict(self):
+        data = super().to_dict()
+        data["type"] = "PhysicalProduct"
+        data["weight_kg"] = self.weight_kg
+        return data
+
+    @classmethod
+    def from_dict(cls, data):
+        return cls(
+            data["product_id"],
+            data["name"],
+            data["price"],
+            data["quantity"],
+            data["category"],
+            data["weight_kg"],
+        )
 
 
 class DigitalProduct(Product):
@@ -66,11 +117,19 @@ class DigitalProduct(Product):
     def shipping_info(self):
         return f"Digital delivery, {self.file_size_mb}MB download"
 
-# parts for better  understaanding the  need of  abstract  classes
+    def to_dict(self):
+        data = super().to_dict()
+        data["type"] = "DigitalProduct"
+        data["file_size_mb"] = self.file_size_mb
+        return data
 
-# mouse = PhysicalProduct("P001", "Wireless Mouse", 25.0, 12, "Electronics", 0.2)
-# print(mouse)                 # uses __str__ from Product
-# print(repr(mouse))            # uses __repr__ from Product, shows "PhysicalProduct(...)"
-# print(mouse.shipping_info())   # uses PhysicalProduct's own override
-
-# broken = PhysicalProduct("P002", "Bad Product", -10, 5, "Test", 1.0)   # should raise ValueError
+    @classmethod
+    def from_dict(cls, data):
+        return cls(
+            data["product_id"],
+            data["name"],
+            data["price"],
+            data["quantity"],
+            data["category"],
+            data["file_size_mb"],
+        )

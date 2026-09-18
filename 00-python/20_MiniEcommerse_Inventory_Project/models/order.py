@@ -1,10 +1,19 @@
 from datetime import datetime
-from .exceptions import (
-    InvalidOrderStatusError,
-    InvalidQuantityError,
-    EmptyOrderError,
-    OutOfStockError,
-)
+
+try:
+    from ..exceptions import (
+        InvalidOrderStatusError,
+        InvalidQuantityError,
+        EmptyOrderError,
+        OutOfStockError,
+    )
+except ImportError:  # pragma: no cover - fallback for direct project-root execution
+    from exceptions import (
+        InvalidOrderStatusError,
+        InvalidQuantityError,
+        EmptyOrderError,
+        OutOfStockError,
+    )
 
 
 class OrderItem:

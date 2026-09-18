@@ -1,0 +1,38 @@
+[
+  {
+    "product_id": "P001",
+    "name": "Wireless Mouse",
+    "price": 25.0,
+    "quantity": 8,
+    "category": "Electronics",
+    "type": "PhysicalProduct",
+    "weight_kg": 0.2
+  },
+  {
+    "product_id": "P002",
+    "name": "Mechanical Keyboard",
+    "price": 70.0,
+    "quantity": 8,
+    "category": "Electronics",
+    "type": "PhysicalProduct",
+    "weight_kg": 1.5
+  },
+  {
+    "product_id": "D001",
+    "name": "Python Guide",
+    "price": 19.99,
+    "quantity": 25,
+    "category": "Books",
+    "type": "DigitalProduct",
+    "file_size_mb": 7
+  },
+  {
+    "product_id": "D002",
+    "name": "AI Crash Course",
+    "price": 29.99,
+    "quantity": 15,
+    "category": "Books",
+    "type": "DigitalProduct",
+    "file_size_mb": 12
+  }
+]

@@ -1,10 +1,19 @@
+try:
+    from ..exceptions import (
+        DuplicateProductError,
+        ProductNotFoundError,
+        InvalidQuantityError,
+        OutOfStockError,
+    )
+except ImportError:  # pragma: no cover - fallback for direct project-root execution
+    from exceptions import (
+        DuplicateProductError,
+        ProductNotFoundError,
+        InvalidQuantityError,
+        OutOfStockError,
+    )
+
 from .product import Product
-from .exceptions import (
-    DuplicateProductError,
-    ProductNotFoundError,
-    InvalidQuantityError,
-    OutOfStockError,
-)
 
 
 class Inventory:
