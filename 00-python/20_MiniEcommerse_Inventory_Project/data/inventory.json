@@ -34,5 +34,14 @@
     "category": "Books",
     "type": "DigitalProduct",
     "file_size_mb": 12
+  },
+  {
+    "product_id": "P106",
+    "name": "Xiaumi band 10 pro",
+    "price": 10500.0,
+    "quantity": 5,
+    "category": "Smart Watch",
+    "type": "PhysicalProduct",
+    "weight_kg": 0.024
   }
 ]
