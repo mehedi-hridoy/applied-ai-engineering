@@ -1,0 +1,56 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='660' height='415' viewBox='0 0 660 415' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>
+<rect width='660' height='415' fill='#fcfcfb' rx='8'/>
+<text x='24' y='30' font-size='16' font-weight='700' fill='#0b0b0b'>One outlier can tilt the whole line</text>
+<defs><clipPath id='c1'><rect x='80' y='80' width='520' height='260'/></clipPath></defs>
+<line x1='80' x2='600' y1='340.0' y2='340.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='72' y='344.0' font-size='12' fill='#52514e' text-anchor='end'>10</text>
+<line x1='80' x2='600' y1='288.0' y2='288.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='72' y='292.0' font-size='12' fill='#52514e' text-anchor='end'>20</text>
+<line x1='80' x2='600' y1='236.0' y2='236.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='72' y='240.0' font-size='12' fill='#52514e' text-anchor='end'>30</text>
+<line x1='80' x2='600' y1='184.0' y2='184.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='72' y='188.0' font-size='12' fill='#52514e' text-anchor='end'>40</text>
+<line x1='80' x2='600' y1='132.0' y2='132.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='72' y='136.0' font-size='12' fill='#52514e' text-anchor='end'>50</text>
+<line x1='80' x2='600' y1='80.0' y2='80.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='72' y='84.0' font-size='12' fill='#52514e' text-anchor='end'>60</text>
+<line x1='80.0' x2='80.0' y1='80' y2='340' stroke='#e6e5e0' stroke-width='1'/>
+<text x='80.0' y='358' font-size='12' fill='#52514e' text-anchor='middle'>0</text>
+<line x1='154.3' x2='154.3' y1='80' y2='340' stroke='#e6e5e0' stroke-width='1'/>
+<text x='154.3' y='358' font-size='12' fill='#52514e' text-anchor='middle'>1</text>
+<line x1='228.6' x2='228.6' y1='80' y2='340' stroke='#e6e5e0' stroke-width='1'/>
+<text x='228.6' y='358' font-size='12' fill='#52514e' text-anchor='middle'>2</text>
+<line x1='302.9' x2='302.9' y1='80' y2='340' stroke='#e6e5e0' stroke-width='1'/>
+<text x='302.9' y='358' font-size='12' fill='#52514e' text-anchor='middle'>3</text>
+<line x1='377.1' x2='377.1' y1='80' y2='340' stroke='#e6e5e0' stroke-width='1'/>
+<text x='377.1' y='358' font-size='12' fill='#52514e' text-anchor='middle'>4</text>
+<line x1='451.4' x2='451.4' y1='80' y2='340' stroke='#e6e5e0' stroke-width='1'/>
+<text x='451.4' y='358' font-size='12' fill='#52514e' text-anchor='middle'>5</text>
+<line x1='525.7' x2='525.7' y1='80' y2='340' stroke='#e6e5e0' stroke-width='1'/>
+<text x='525.7' y='358' font-size='12' fill='#52514e' text-anchor='middle'>6</text>
+<line x1='600.0' x2='600.0' y1='80' y2='340' stroke='#e6e5e0' stroke-width='1'/>
+<text x='600.0' y='358' font-size='12' fill='#52514e' text-anchor='middle'>7</text>
+<line x1='80' x2='600' y1='340' y2='340' stroke='#8a8983' stroke-width='1'/>
+<line x1='80' x2='80' y1='80' y2='340' stroke='#8a8983' stroke-width='1'/>
+<text x='340.0' y='378' font-size='12.5' fill='#52514e' text-anchor='middle'>years of experience</text>
+<text x='36' y='210.0' font-size='12.5' fill='#52514e' text-anchor='middle' transform='rotate(-90 36 210.0)'>salary (k)</text>
+<path clip-path='url(#c1)' d='M80.0,261.0 L600.0,57.1' fill='none' stroke='#6250d6' stroke-width='2.2' stroke-linejoin='round' stroke-linecap='round' opacity='1'/>
+<path clip-path='url(#c1)' d='M80.0,193.7 L600.0,191.6' fill='none' stroke='#eb6834' stroke-width='2.2' stroke-linejoin='round' stroke-linecap='round' opacity='1' stroke-dasharray='7 4'/>
+<circle cx='154.3' cy='236.0' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='228.6' cy='194.4' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='302.9' cy='184.0' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='377.1' cy='132.0' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='451.4' cy='121.6' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<path d='M525.7,280.0 L533.3,293.6 L518.1,293.6 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<text x='511.7' y='292.0' font-size='12' fill='#0b0b0b' text-anchor='end' font-weight='400' stroke='#fcfcfb' stroke-width='4' stroke-linejoin='round' paint-order='stroke'>outlier (6, 20)</text>
+<text x='347.4' y='106.0' font-size='12' fill='#6250d6' text-anchor='end' font-weight='600' stroke='#fcfcfb' stroke-width='4' stroke-linejoin='round' paint-order='stroke'>without outlier: slope 5.6</text>
+<text x='592.6' y='181.8' font-size='12' fill='#eb6834' text-anchor='end' font-weight='600' stroke='#fcfcfb' stroke-width='4' stroke-linejoin='round' paint-order='stroke'>with outlier: slope 0.06</text>
+<circle cx='86' cy='391' r='6' fill='#2a78d6'/>
+<text x='96' y='395' font-size='12.5' fill='#52514e'>original 5 points</text>
+<path d='M229,384 L235.6,396 L222.4,396 Z' fill='#eb6834'/>
+<text x='239' y='395' font-size='12.5' fill='#52514e'>one outlier</text>
+<line x1='324' x2='346' y1='391' y2='391' stroke='#6250d6' stroke-width='2.5' stroke-linecap='round'/>
+<text x='352' y='395' font-size='12.5' fill='#52514e'>fit without outlier</text>
+<line x1='493' x2='515' y1='391' y2='391' stroke='#eb6834' stroke-width='2' stroke-dasharray='5 4'/>
+<text x='521' y='395' font-size='12.5' fill='#52514e'>fit with outlier</text>
+</svg>

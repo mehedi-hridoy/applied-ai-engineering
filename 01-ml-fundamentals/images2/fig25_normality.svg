@@ -1,0 +1,67 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='860' height='340' viewBox='0 0 860 340' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>
+<rect width='860' height='340' fill='#fcfcfb' rx='8'/>
+<text x='24' y='30' font-size='16' font-weight='700' fill='#0b0b0b'>Assumption 3 — Normality of residuals</text>
+<defs><clipPath id='c6'><rect x='70' y='80' width='330' height='210'/></clipPath></defs>
+<line x1='70' x2='400' y1='290.0' y2='290.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='62' y='294.0' font-size='12' fill='#52514e' text-anchor='end'>0</text>
+<line x1='70' x2='400' y1='185.0' y2='185.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='62' y='189.0' font-size='12' fill='#52514e' text-anchor='end'>40</text>
+<line x1='70' x2='400' y1='80.0' y2='80.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='62' y='84.0' font-size='12' fill='#52514e' text-anchor='end'>80</text>
+<line x1='93.6' x2='93.6' y1='80' y2='290' stroke='#e6e5e0' stroke-width='1'/>
+<text x='93.6' y='308' font-size='12' fill='#52514e' text-anchor='middle'>-3</text>
+<line x1='235.0' x2='235.0' y1='80' y2='290' stroke='#e6e5e0' stroke-width='1'/>
+<text x='235.0' y='308' font-size='12' fill='#52514e' text-anchor='middle'>0</text>
+<line x1='376.4' x2='376.4' y1='80' y2='290' stroke='#e6e5e0' stroke-width='1'/>
+<text x='376.4' y='308' font-size='12' fill='#52514e' text-anchor='middle'>3</text>
+<line x1='70' x2='400' y1='290' y2='290' stroke='#8a8983' stroke-width='1'/>
+<line x1='70' x2='70' y1='80' y2='290' stroke='#8a8983' stroke-width='1'/>
+<text x='235.0' y='328' font-size='12.5' fill='#52514e' text-anchor='middle'>residual</text>
+<text x='26' y='185.0' font-size='12.5' fill='#52514e' text-anchor='middle' transform='rotate(-90 26 185.0)'>count</text>
+<rect x='94.99' y='287.38' width='21.04' height='2.92' fill='#2a78d6' opacity='0.75'/>
+<rect x='118.56' y='274.25' width='21.04' height='16.05' fill='#2a78d6' opacity='0.75'/>
+<rect x='142.13' y='258.50' width='21.04' height='31.80' fill='#2a78d6' opacity='0.75'/>
+<rect x='165.70' y='208.62' width='21.04' height='81.67' fill='#2a78d6' opacity='0.75'/>
+<rect x='189.27' y='158.75' width='21.04' height='131.55' fill='#2a78d6' opacity='0.75'/>
+<rect x='212.84' y='143.00' width='21.04' height='147.30' fill='#2a78d6' opacity='0.75'/>
+<rect x='236.41' y='148.25' width='21.04' height='142.05' fill='#2a78d6' opacity='0.75'/>
+<rect x='259.99' y='187.62' width='21.04' height='102.67' fill='#2a78d6' opacity='0.75'/>
+<rect x='283.56' y='227.00' width='21.04' height='63.30' fill='#2a78d6' opacity='0.75'/>
+<rect x='307.13' y='253.25' width='21.04' height='37.05' fill='#2a78d6' opacity='0.75'/>
+<rect x='330.70' y='263.75' width='21.04' height='26.55' fill='#2a78d6' opacity='0.75'/>
+<rect x='354.27' y='282.12' width='21.04' height='8.18' fill='#2a78d6' opacity='0.75'/>
+<path clip-path='url(#c6)' d='M70.0,289.7 L72.4,289.6 L74.7,289.5 L77.1,289.4 L79.4,289.3 L81.8,289.2 L84.1,289.1 L86.5,288.9 L88.9,288.7 L91.2,288.5 L93.6,288.3 L95.9,288.0 L98.3,287.7 L100.6,287.3 L103.0,286.9 L105.4,286.4 L107.7,285.9 L110.1,285.3 L112.4,284.7 L114.8,283.9 L117.1,283.1 L119.5,282.2 L121.9,281.2 L124.2,280.1 L126.6,278.8 L128.9,277.5 L131.3,276.0 L133.6,274.4 L136.0,272.7 L138.4,270.8 L140.7,268.7 L143.1,266.5 L145.4,264.2 L147.8,261.6 L150.1,258.9 L152.5,256.0 L154.9,253.0 L157.2,249.7 L159.6,246.3 L161.9,242.7 L164.3,239.0 L166.6,235.1 L169.0,231.0 L171.4,226.8 L173.7,222.5 L176.1,218.1 L178.4,213.5 L180.8,208.9 L183.1,204.2 L185.5,199.5 L187.9,194.7 L190.2,190.0 L192.6,185.2 L194.9,180.5 L197.3,175.9 L199.6,171.4 L202.0,167.1 L204.4,162.8 L206.7,158.8 L209.1,155.0 L211.4,151.4 L213.8,148.0 L216.1,145.0 L218.5,142.2 L220.9,139.8 L223.2,137.7 L225.6,136.0 L227.9,134.7 L230.3,133.7 L232.6,133.1 L235.0,132.9 L237.4,133.1 L239.7,133.7 L242.1,134.7 L244.4,136.0 L246.8,137.7 L249.1,139.8 L251.5,142.2 L253.9,145.0 L256.2,148.0 L258.6,151.4 L260.9,155.0 L263.3,158.8 L265.6,162.8 L268.0,167.1 L270.4,171.4 L272.7,175.9 L275.1,180.5 L277.4,185.2 L279.8,190.0 L282.1,194.7 L284.5,199.5 L286.9,204.2 L289.2,208.9 L291.6,213.5 L293.9,218.1 L296.3,222.5 L298.6,226.8 L301.0,231.0 L303.4,235.1 L305.7,239.0 L308.1,242.7 L310.4,246.3 L312.8,249.7 L315.1,253.0 L317.5,256.0 L319.9,258.9 L322.2,261.6 L324.6,264.2 L326.9,266.5 L329.3,268.7 L331.6,270.8 L334.0,272.7 L336.4,274.4 L338.7,276.0 L341.1,277.5 L343.4,278.8 L345.8,280.1 L348.1,281.2 L350.5,282.2 L352.9,283.1 L355.2,283.9 L357.6,284.7 L359.9,285.3 L362.3,285.9 L364.6,286.4 L367.0,286.9 L369.4,287.3 L371.7,287.7 L374.1,288.0 L376.4,288.3 L378.8,288.5 L381.1,288.7 L383.5,288.9 L385.9,289.1 L388.2,289.2 L390.6,289.3 L392.9,289.4 L395.3,289.5 L397.6,289.6 L400.0,289.7' fill='none' stroke='#eb6834' stroke-width='2' stroke-linejoin='round' stroke-linecap='round' opacity='1'/>
+<text x='70' y='66' font-size='14' font-weight='600' fill='#0b0b0b'>Holds: bell-shaped around 0</text>
+<defs><clipPath id='c7'><rect x='500' y='80' width='330' height='210'/></clipPath></defs>
+<line x1='500' x2='830' y1='290.0' y2='290.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='492' y='294.0' font-size='12' fill='#52514e' text-anchor='end'>0</text>
+<line x1='500' x2='830' y1='185.0' y2='185.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='492' y='189.0' font-size='12' fill='#52514e' text-anchor='end'>70</text>
+<line x1='500' x2='830' y1='80.0' y2='80.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='492' y='84.0' font-size='12' fill='#52514e' text-anchor='end'>140</text>
+<line x1='523.6' x2='523.6' y1='80' y2='290' stroke='#e6e5e0' stroke-width='1'/>
+<text x='523.6' y='308' font-size='12' fill='#52514e' text-anchor='middle'>-1</text>
+<line x1='570.7' x2='570.7' y1='80' y2='290' stroke='#e6e5e0' stroke-width='1'/>
+<text x='570.7' y='308' font-size='12' fill='#52514e' text-anchor='middle'>0</text>
+<line x1='665.0' x2='665.0' y1='80' y2='290' stroke='#e6e5e0' stroke-width='1'/>
+<text x='665.0' y='308' font-size='12' fill='#52514e' text-anchor='middle'>2</text>
+<line x1='759.3' x2='759.3' y1='80' y2='290' stroke='#e6e5e0' stroke-width='1'/>
+<text x='759.3' y='308' font-size='12' fill='#52514e' text-anchor='middle'>4</text>
+<line x1='500' x2='830' y1='290' y2='290' stroke='#8a8983' stroke-width='1'/>
+<line x1='500' x2='500' y1='80' y2='290' stroke='#8a8983' stroke-width='1'/>
+<text x='665.0' y='328' font-size='12.5' fill='#52514e' text-anchor='middle'>residual</text>
+<text x='456' y='185.0' font-size='12.5' fill='#52514e' text-anchor='middle' transform='rotate(-90 456 185.0)'>count</text>
+<rect x='524.99' y='92.00' width='21.04' height='198.30' fill='#2a78d6' opacity='0.75'/>
+<rect x='548.56' y='194.00' width='21.04' height='96.30' fill='#2a78d6' opacity='0.75'/>
+<rect x='572.13' y='231.50' width='21.04' height='58.80' fill='#2a78d6' opacity='0.75'/>
+<rect x='595.70' y='257.00' width='21.04' height='33.30' fill='#2a78d6' opacity='0.75'/>
+<rect x='619.27' y='272.00' width='21.04' height='18.30' fill='#2a78d6' opacity='0.75'/>
+<rect x='642.84' y='278.00' width='21.04' height='12.30' fill='#2a78d6' opacity='0.75'/>
+<rect x='666.41' y='276.50' width='21.04' height='13.80' fill='#2a78d6' opacity='0.75'/>
+<rect x='689.99' y='281.00' width='21.04' height='9.30' fill='#2a78d6' opacity='0.75'/>
+<rect x='713.56' y='285.50' width='21.04' height='4.80' fill='#2a78d6' opacity='0.75'/>
+<rect x='737.13' y='287.00' width='21.04' height='3.30' fill='#2a78d6' opacity='0.75'/>
+<rect x='760.70' y='287.00' width='21.04' height='3.30' fill='#2a78d6' opacity='0.75'/>
+<text x='500' y='66' font-size='14' font-weight='600' fill='#0b0b0b'>Violated: skewed, long right tail</text>
+
+</svg>

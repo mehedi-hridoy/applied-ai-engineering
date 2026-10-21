@@ -1,0 +1,133 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='860' height='340' viewBox='0 0 860 340' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>
+<rect width='860' height='340' fill='#fcfcfb' rx='8'/>
+<text x='24' y='30' font-size='16' font-weight='700' fill='#0b0b0b'>Assumption 2 — Independence of residuals</text>
+<defs><clipPath id='c4'><rect x='70' y='80' width='330' height='210'/></clipPath></defs>
+<line x1='70' x2='400' y1='290.0' y2='290.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='62' y='294.0' font-size='12' fill='#52514e' text-anchor='end'>-3</text>
+<line x1='70' x2='400' y1='185.0' y2='185.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='62' y='189.0' font-size='12' fill='#52514e' text-anchor='end'>0</text>
+<line x1='70' x2='400' y1='80.0' y2='80.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='62' y='84.0' font-size='12' fill='#52514e' text-anchor='end'>3</text>
+<line x1='70.0' x2='70.0' y1='80' y2='290' stroke='#e6e5e0' stroke-width='1'/>
+<text x='70.0' y='308' font-size='12' fill='#52514e' text-anchor='middle'>0</text>
+<line x1='150.5' x2='150.5' y1='80' y2='290' stroke='#e6e5e0' stroke-width='1'/>
+<text x='150.5' y='308' font-size='12' fill='#52514e' text-anchor='middle'>10</text>
+<line x1='231.0' x2='231.0' y1='80' y2='290' stroke='#e6e5e0' stroke-width='1'/>
+<text x='231.0' y='308' font-size='12' fill='#52514e' text-anchor='middle'>20</text>
+<line x1='311.5' x2='311.5' y1='80' y2='290' stroke='#e6e5e0' stroke-width='1'/>
+<text x='311.5' y='308' font-size='12' fill='#52514e' text-anchor='middle'>30</text>
+<line x1='392.0' x2='392.0' y1='80' y2='290' stroke='#e6e5e0' stroke-width='1'/>
+<text x='392.0' y='308' font-size='12' fill='#52514e' text-anchor='middle'>40</text>
+<line x1='70' x2='400' y1='290' y2='290' stroke='#8a8983' stroke-width='1'/>
+<line x1='70' x2='70' y1='80' y2='290' stroke='#8a8983' stroke-width='1'/>
+<text x='235.0' y='328' font-size='12.5' fill='#52514e' text-anchor='middle'>observation order (e.g. time)</text>
+<text x='26' y='185.0' font-size='12.5' fill='#52514e' text-anchor='middle' transform='rotate(-90 26 185.0)'>residual</text>
+<path clip-path='url(#c4)' d='M70.0,185.0 L400.0,185.0' fill='none' stroke='#8a8983' stroke-width='1.2' stroke-linejoin='round' stroke-linecap='round' opacity='1' stroke-dasharray='5 4'/>
+<path clip-path='url(#c4)' d='M78.0,156.3 L86.1,181.7 L94.1,125.9 L102.2,197.8 L110.2,255.9 L118.3,140.3 L126.3,231.9 L134.4,229.4 L142.4,191.1 L150.5,163.0 L158.5,202.8 L166.6,178.5 L174.6,250.8 L182.7,124.4 L190.7,187.4 L198.8,180.8 L206.8,164.5 L214.9,179.1 L222.9,178.0 L231.0,217.5 L239.0,189.0 L247.1,169.7 L255.1,148.5 L263.2,189.2 L271.2,181.8 L279.3,173.2 L287.3,165.0 L295.4,177.8 L303.4,193.8 L311.5,202.9 L319.5,145.7 L327.6,174.7 L335.6,184.3 L343.7,63.3 L351.7,154.1 L359.8,155.1 L367.8,179.7 L375.9,220.5 L383.9,145.2 L392.0,188.1' fill='none' stroke='#2a78d6' stroke-width='1.2' stroke-linejoin='round' stroke-linecap='round' opacity='0.5'/>
+<circle cx='78.0' cy='156.3' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='86.1' cy='181.7' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='94.1' cy='125.9' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='102.2' cy='197.8' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='110.2' cy='255.9' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='118.3' cy='140.3' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='126.3' cy='231.9' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='134.4' cy='229.4' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='142.4' cy='191.1' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='150.5' cy='163.0' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='158.5' cy='202.8' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='166.6' cy='178.5' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='174.6' cy='250.8' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='182.7' cy='124.4' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='190.7' cy='187.4' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='198.8' cy='180.8' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='206.8' cy='164.5' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='214.9' cy='179.1' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='222.9' cy='178.0' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='231.0' cy='217.5' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='239.0' cy='189.0' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='247.1' cy='169.7' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='255.1' cy='148.5' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='263.2' cy='189.2' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='271.2' cy='181.8' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='279.3' cy='173.2' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='287.3' cy='165.0' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='295.4' cy='177.8' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='303.4' cy='193.8' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='311.5' cy='202.9' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='319.5' cy='145.7' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='327.6' cy='174.7' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='335.6' cy='184.3' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='343.7' cy='63.3' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='351.7' cy='154.1' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='359.8' cy='155.1' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='367.8' cy='179.7' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='375.9' cy='220.5' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='383.9' cy='145.2' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='392.0' cy='188.1' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<text x='70' y='66' font-size='14' font-weight='600' fill='#0b0b0b'>Holds: no pattern over order</text>
+<defs><clipPath id='c5'><rect x='500' y='80' width='330' height='210'/></clipPath></defs>
+<line x1='500' x2='830' y1='290.0' y2='290.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='492' y='294.0' font-size='12' fill='#52514e' text-anchor='end'>-3</text>
+<line x1='500' x2='830' y1='185.0' y2='185.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='492' y='189.0' font-size='12' fill='#52514e' text-anchor='end'>0</text>
+<line x1='500' x2='830' y1='80.0' y2='80.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='492' y='84.0' font-size='12' fill='#52514e' text-anchor='end'>3</text>
+<line x1='500.0' x2='500.0' y1='80' y2='290' stroke='#e6e5e0' stroke-width='1'/>
+<text x='500.0' y='308' font-size='12' fill='#52514e' text-anchor='middle'>0</text>
+<line x1='580.5' x2='580.5' y1='80' y2='290' stroke='#e6e5e0' stroke-width='1'/>
+<text x='580.5' y='308' font-size='12' fill='#52514e' text-anchor='middle'>10</text>
+<line x1='661.0' x2='661.0' y1='80' y2='290' stroke='#e6e5e0' stroke-width='1'/>
+<text x='661.0' y='308' font-size='12' fill='#52514e' text-anchor='middle'>20</text>
+<line x1='741.5' x2='741.5' y1='80' y2='290' stroke='#e6e5e0' stroke-width='1'/>
+<text x='741.5' y='308' font-size='12' fill='#52514e' text-anchor='middle'>30</text>
+<line x1='822.0' x2='822.0' y1='80' y2='290' stroke='#e6e5e0' stroke-width='1'/>
+<text x='822.0' y='308' font-size='12' fill='#52514e' text-anchor='middle'>40</text>
+<line x1='500' x2='830' y1='290' y2='290' stroke='#8a8983' stroke-width='1'/>
+<line x1='500' x2='500' y1='80' y2='290' stroke='#8a8983' stroke-width='1'/>
+<text x='665.0' y='328' font-size='12.5' fill='#52514e' text-anchor='middle'>observation order (e.g. time)</text>
+<text x='456' y='185.0' font-size='12.5' fill='#52514e' text-anchor='middle' transform='rotate(-90 456 185.0)'>residual</text>
+<path clip-path='url(#c5)' d='M500.0,185.0 L830.0,185.0' fill='none' stroke='#8a8983' stroke-width='1.2' stroke-linejoin='round' stroke-linecap='round' opacity='1' stroke-dasharray='5 4'/>
+<path clip-path='url(#c5)' d='M508.0,184.1 L516.1,166.2 L524.1,151.2 L532.2,152.1 L540.2,156.7 L548.3,124.2 L556.3,123.3 L564.4,150.5 L572.4,142.6 L580.5,146.3 L588.5,151.5 L596.6,144.6 L604.6,146.6 L612.7,117.2 L620.7,123.8 L628.8,128.6 L636.8,116.7 L644.9,136.8 L652.9,126.3 L661.0,136.2 L669.0,122.8 L677.1,147.0 L685.1,145.3 L693.2,179.3 L701.2,187.8 L709.3,187.1 L717.3,178.2 L725.4,144.7 L733.4,118.5 L741.5,152.0 L749.5,170.2 L757.6,150.5 L765.6,148.0 L773.7,177.4 L781.7,170.1 L789.8,192.0 L797.8,206.0 L805.9,224.8 L813.9,223.4 L822.0,178.3' fill='none' stroke='#2a78d6' stroke-width='1.2' stroke-linejoin='round' stroke-linecap='round' opacity='0.5'/>
+<circle cx='508.0' cy='184.1' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='516.1' cy='166.2' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='524.1' cy='151.2' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='532.2' cy='152.1' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='540.2' cy='156.7' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='548.3' cy='124.2' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='556.3' cy='123.3' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='564.4' cy='150.5' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='572.4' cy='142.6' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='580.5' cy='146.3' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='588.5' cy='151.5' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='596.6' cy='144.6' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='604.6' cy='146.6' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='612.7' cy='117.2' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='620.7' cy='123.8' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='628.8' cy='128.6' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='636.8' cy='116.7' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='644.9' cy='136.8' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='652.9' cy='126.3' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='661.0' cy='136.2' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='669.0' cy='122.8' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='677.1' cy='147.0' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='685.1' cy='145.3' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='693.2' cy='179.3' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='701.2' cy='187.8' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='709.3' cy='187.1' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='717.3' cy='178.2' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='725.4' cy='144.7' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='733.4' cy='118.5' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='741.5' cy='152.0' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='749.5' cy='170.2' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='757.6' cy='150.5' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='765.6' cy='148.0' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='773.7' cy='177.4' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='781.7' cy='170.1' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='789.8' cy='192.0' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='797.8' cy='206.0' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='805.9' cy='224.8' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='813.9' cy='223.4' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='822.0' cy='178.3' r='3.5' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<text x='500' y='66' font-size='14' font-weight='600' fill='#0b0b0b'>Violated: neighbours move together</text>
+
+</svg>
