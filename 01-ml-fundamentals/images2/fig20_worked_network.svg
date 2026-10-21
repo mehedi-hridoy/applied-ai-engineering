@@ -1,0 +1,28 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='820' height='420' viewBox='0 0 820 420' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>
+<rect width='820' height='420' fill='#fcfcfb' rx='8'/>
+<text x='24' y='32' font-size='16' font-weight='700' fill='#0b0b0b'>The worked example network (2 → 2 → 1)</text>
+<text x='24' y='53' font-size='13' fill='#52514e'>all weights, biases and forward-pass values used in sections 6 and 8</text>
+<line x1='132' y1='150' x2='368' y2='150' stroke='#b9b8b1' stroke-width='1.6'/><text x='207.5' y='142.0' font-size='12.5' fill='#2a78d6' font-weight='600' text-anchor='middle' stroke='#fcfcfb' stroke-width='4' paint-order='stroke'>w₁₁ = 0.4</text>
+<line x1='132' y1='150' x2='368' y2='310' stroke='#b9b8b1' stroke-width='1.6'/><text x='191.0' y='184.0' font-size='12.5' fill='#2a78d6' font-weight='600' text-anchor='middle' stroke='#fcfcfb' stroke-width='4' paint-order='stroke'>w₂₁ = 0.3</text>
+<line x1='132' y1='310' x2='368' y2='150' stroke='#b9b8b1' stroke-width='1.6'/><text x='191.0' y='288.0' font-size='12.5' fill='#2a78d6' font-weight='600' text-anchor='middle' stroke='#fcfcfb' stroke-width='4' paint-order='stroke'>w₁₂ = −0.2</text>
+<line x1='132' y1='310' x2='368' y2='310' stroke='#b9b8b1' stroke-width='1.6'/><text x='207.5' y='330.0' font-size='12.5' fill='#2a78d6' font-weight='600' text-anchor='middle' stroke='#fcfcfb' stroke-width='4' paint-order='stroke'>w₂₂ = 0.6</text>
+<line x1='412' y1='150' x2='658' y2='230' stroke='#b9b8b1' stroke-width='1.6'/><text x='535.0' y='180.0' font-size='12.5' fill='#eb6834' font-weight='600' text-anchor='middle' stroke='#fcfcfb' stroke-width='4' paint-order='stroke'>v₁ = 0.6</text>
+<line x1='412' y1='310' x2='658' y2='230' stroke='#b9b8b1' stroke-width='1.6'/><text x='535.0' y='292.0' font-size='12.5' fill='#eb6834' font-weight='600' text-anchor='middle' stroke='#fcfcfb' stroke-width='4' paint-order='stroke'>v₂ = −0.5</text>
+<circle cx='110' cy='150' r='22' fill='#eef3fb' stroke='#2a78d6' stroke-width='1.8'/><text x='110' y='155' font-size='14' font-weight='600' fill='#0b0b0b' text-anchor='middle'>x₁</text>
+<text x='110' y='190' font-size='12' fill='#52514e' text-anchor='middle'>x₁ = 1.0</text>
+<circle cx='110' cy='310' r='22' fill='#eef3fb' stroke='#2a78d6' stroke-width='1.8'/><text x='110' y='315' font-size='14' font-weight='600' fill='#0b0b0b' text-anchor='middle'>x₂</text>
+<text x='110' y='350' font-size='12' fill='#52514e' text-anchor='middle'>x₂ = 0.5</text>
+<circle cx='390' cy='150' r='24' fill='#f1effc' stroke='#6250d6' stroke-width='1.8'/><text x='390' y='155' font-size='14' font-weight='600' fill='#0b0b0b' text-anchor='middle'>h₁</text>
+<circle cx='390' cy='310' r='24' fill='#f1effc' stroke='#6250d6' stroke-width='1.8'/><text x='390' y='315' font-size='14' font-weight='600' fill='#0b0b0b' text-anchor='middle'>h₂</text>
+<text x='390' y='105' font-size='12' fill='#52514e' text-anchor='middle'>b₁ = 0.1</text>
+<text x='390' y='121' font-size='12' fill='#0b0b0b' text-anchor='middle' font-weight='600'>z₁ = 0.4 → h₁ = 0.599</text>
+<text x='390' y='352' font-size='12' fill='#52514e' text-anchor='middle'>b₂ = −0.3</text>
+<text x='390' y='368' font-size='12' fill='#0b0b0b' text-anchor='middle' font-weight='600'>z₂ = 0.3 → h₂ = 0.574</text>
+<circle cx='680' cy='230' r='26' fill='#fdf0ea' stroke='#eb6834' stroke-width='1.8'/><text x='680' y='235' font-size='15' font-weight='600' fill='#0b0b0b' text-anchor='middle'>ŷ</text>
+<text x='680' y='186' font-size='12' fill='#52514e' text-anchor='middle'>b₃ = 0.2</text>
+<text x='680' y='278' font-size='12' fill='#0b0b0b' text-anchor='middle' font-weight='600'>z₃ = 0.272 → ŷ = 0.568</text>
+<text x='680' y='296' font-size='12' fill='#52514e' text-anchor='middle'>target y = 1, loss = 0.566</text>
+<text x='110' y='92' font-size='13.5' font-weight='700' fill='#0b0b0b' text-anchor='middle'>Input</text>
+<text x='390' y='80' font-size='13.5' font-weight='700' fill='#0b0b0b' text-anchor='middle'>Hidden (sigmoid)</text>
+<text x='680' y='92' font-size='13.5' font-weight='700' fill='#0b0b0b' text-anchor='middle'>Output (sigmoid)</text>
+</svg>

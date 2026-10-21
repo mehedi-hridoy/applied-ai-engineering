@@ -1,0 +1,53 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='860' height='415' viewBox='0 0 860 415' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>
+<rect width='860' height='415' fill='#fcfcfb' rx='8'/>
+<text x='24' y='30' font-size='16' font-weight='700' fill='#0b0b0b'>Why hidden layers matter: solving XOR</text>
+<defs><clipPath id='c5'><rect x='70' y='90' width='260' height='220'/></clipPath></defs>
+<line x1='70' x2='330' y1='261.1' y2='261.1' stroke='#e6e5e0' stroke-width='1'/>
+<text x='62' y='265.1' font-size='12' fill='#52514e' text-anchor='end'>0</text>
+<line x1='70' x2='330' y1='138.9' y2='138.9' stroke='#e6e5e0' stroke-width='1'/>
+<text x='62' y='142.9' font-size='12' fill='#52514e' text-anchor='end'>1</text>
+<line x1='127.8' x2='127.8' y1='90' y2='310' stroke='#e6e5e0' stroke-width='1'/>
+<text x='127.8' y='328' font-size='12' fill='#52514e' text-anchor='middle'>0</text>
+<line x1='272.2' x2='272.2' y1='90' y2='310' stroke='#e6e5e0' stroke-width='1'/>
+<text x='272.2' y='328' font-size='12' fill='#52514e' text-anchor='middle'>1</text>
+<line x1='70' x2='330' y1='310' y2='310' stroke='#8a8983' stroke-width='1'/>
+<line x1='70' x2='70' y1='90' y2='310' stroke='#8a8983' stroke-width='1'/>
+<text x='70' y='78' font-size='14' font-weight='600' fill='#0b0b0b'>Input space: no straight line works</text>
+<text x='200.0' y='348' font-size='12.5' fill='#52514e' text-anchor='middle'>x₁</text>
+<text x='26' y='200.0' font-size='12.5' fill='#52514e' text-anchor='middle' transform='rotate(-90 26 200.0)'>x₂</text>
+<circle cx='127.8' cy='261.1' r='8' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='272.2' cy='138.9' r='8' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<path d='M127.8,129.9 L136.3,145.2 L119.2,145.2 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M272.2,252.1 L280.8,267.4 L263.7,267.4 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<text x='200.0' y='208.0' font-size='22' fill='#52514e' text-anchor='middle' font-weight='400' stroke='#fcfcfb' stroke-width='4' stroke-linejoin='round' paint-order='stroke'>?</text>
+<defs><clipPath id='c6'><rect x='550' y='90' width='280' height='220'/></clipPath></defs>
+<line x1='550' x2='830' y1='261.1' y2='261.1' stroke='#e6e5e0' stroke-width='1'/>
+<text x='542' y='265.1' font-size='12' fill='#52514e' text-anchor='end'>0</text>
+<line x1='550' x2='830' y1='138.9' y2='138.9' stroke='#e6e5e0' stroke-width='1'/>
+<text x='542' y='142.9' font-size='12' fill='#52514e' text-anchor='end'>1</text>
+<line x1='590.0' x2='590.0' y1='90' y2='310' stroke='#e6e5e0' stroke-width='1'/>
+<text x='590.0' y='328' font-size='12' fill='#52514e' text-anchor='middle'>0</text>
+<line x1='690.0' x2='690.0' y1='90' y2='310' stroke='#e6e5e0' stroke-width='1'/>
+<text x='690.0' y='328' font-size='12' fill='#52514e' text-anchor='middle'>1</text>
+<line x1='790.0' x2='790.0' y1='90' y2='310' stroke='#e6e5e0' stroke-width='1'/>
+<text x='790.0' y='328' font-size='12' fill='#52514e' text-anchor='middle'>2</text>
+<line x1='550' x2='830' y1='310' y2='310' stroke='#8a8983' stroke-width='1'/>
+<line x1='550' x2='550' y1='90' y2='310' stroke='#8a8983' stroke-width='1'/>
+<text x='550' y='78' font-size='14' font-weight='600' fill='#0b0b0b'>Hidden space: one line separates</text>
+<text x='690.0' y='348' font-size='12.5' fill='#52514e' text-anchor='middle'>h₁ = ReLU(x₁ + x₂)</text>
+<text x='506' y='200.0' font-size='12.5' fill='#52514e' text-anchor='middle' transform='rotate(-90 506 200.0)'>h₂ = ReLU(x₁ + x₂ − 1)</text>
+<path clip-path='url(#c6)' d='M550.0,316.1 L830.0,145.0' fill='none' stroke='#6250d6' stroke-width='2' stroke-linejoin='round' stroke-linecap='round' opacity='1'/>
+<circle cx='590.0' cy='261.1' r='8' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='790.0' cy='138.9' r='8' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<path d='M690.0,252.1 L698.5,267.4 L681.5,267.4 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<text x='602.0' y='253.1' font-size='11.5' fill='#52514e' text-anchor='start' font-weight='400' stroke='#fcfcfb' stroke-width='4' stroke-linejoin='round' paint-order='stroke'>(0,0)</text>
+<text x='778.0' y='130.9' font-size='11.5' fill='#52514e' text-anchor='end' font-weight='400' stroke='#fcfcfb' stroke-width='4' stroke-linejoin='round' paint-order='stroke'>(1,1)</text>
+<text x='702.0' y='253.1' font-size='11.5' fill='#52514e' text-anchor='start' font-weight='400' stroke='#fcfcfb' stroke-width='4' stroke-linejoin='round' paint-order='stroke'>(0,1) and (1,0)</text>
+<text x='825.0' y='201.9' font-size='12' fill='#6250d6' text-anchor='end' font-weight='600' stroke='#fcfcfb' stroke-width='4' stroke-linejoin='round' paint-order='stroke'>h₁ − 2h₂ = 0.5</text>
+<text x='415' y='205' font-size='13' fill='#52514e' text-anchor='middle'>hidden layer</text><line x1='360' y1='215' x2='460' y2='215' stroke='#52514e' stroke-width='2'/><path d='M462,215 L452.8,218.9 L452.8,211.1 Z' fill='#52514e'/><circle cx='76' cy='391' r='6' fill='#2a78d6'/>
+<text x='86' y='395' font-size='12.5' fill='#52514e'>XOR = 0</text>
+<path d='M149,384 L155.6,396 L142.4,396 Z' fill='#eb6834'/>
+<text x='159' y='395' font-size='12.5' fill='#52514e'>XOR = 1</text>
+<line x1='216' x2='238' y1='391' y2='391' stroke='#6250d6' stroke-width='2.5' stroke-linecap='round'/>
+<text x='244' y='395' font-size='12.5' fill='#52514e'>output neuron's boundary</text>
+</svg>
