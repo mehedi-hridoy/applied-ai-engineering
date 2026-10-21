@@ -1,0 +1,108 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='860' height='440' viewBox='0 0 860 440' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>
+<rect width='860' height='440' fill='#fcfcfb' rx='8'/>
+<text x='24' y='30' font-size='16' font-weight='700' fill='#0b0b0b'>Same query, same k = 3 — feature scaling changes the neighbours</text>
+<defs><clipPath id='c3'><rect x='80' y='90' width='330' height='260'/></clipPath></defs>
+<line x1='80' x2='410' y1='350.0' y2='350.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='72' y='354.0' font-size='12' fill='#52514e' text-anchor='end'>0</text>
+<line x1='80' x2='410' y1='306.7' y2='306.7' stroke='#e6e5e0' stroke-width='1'/>
+<text x='72' y='310.7' font-size='12' fill='#52514e' text-anchor='end'>1</text>
+<line x1='80' x2='410' y1='263.3' y2='263.3' stroke='#e6e5e0' stroke-width='1'/>
+<text x='72' y='267.3' font-size='12' fill='#52514e' text-anchor='end'>2</text>
+<line x1='80' x2='410' y1='220.0' y2='220.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='72' y='224.0' font-size='12' fill='#52514e' text-anchor='end'>3</text>
+<line x1='80' x2='410' y1='176.7' y2='176.7' stroke='#e6e5e0' stroke-width='1'/>
+<text x='72' y='180.7' font-size='12' fill='#52514e' text-anchor='end'>4</text>
+<line x1='80' x2='410' y1='133.3' y2='133.3' stroke='#e6e5e0' stroke-width='1'/>
+<text x='72' y='137.3' font-size='12' fill='#52514e' text-anchor='end'>5</text>
+<line x1='80' x2='410' y1='90.0' y2='90.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='72' y='94.0' font-size='12' fill='#52514e' text-anchor='end'>6</text>
+<line x1='80.0' x2='80.0' y1='90' y2='350' stroke='#e6e5e0' stroke-width='1'/>
+<text x='80.0' y='368' font-size='12' fill='#52514e' text-anchor='middle'>0</text>
+<line x1='162.5' x2='162.5' y1='90' y2='350' stroke='#e6e5e0' stroke-width='1'/>
+<text x='162.5' y='368' font-size='12' fill='#52514e' text-anchor='middle'>80</text>
+<line x1='245.0' x2='245.0' y1='90' y2='350' stroke='#e6e5e0' stroke-width='1'/>
+<text x='245.0' y='368' font-size='12' fill='#52514e' text-anchor='middle'>160</text>
+<line x1='327.5' x2='327.5' y1='90' y2='350' stroke='#e6e5e0' stroke-width='1'/>
+<text x='327.5' y='368' font-size='12' fill='#52514e' text-anchor='middle'>240</text>
+<line x1='410.0' x2='410.0' y1='90' y2='350' stroke='#e6e5e0' stroke-width='1'/>
+<text x='410.0' y='368' font-size='12' fill='#52514e' text-anchor='middle'>320</text>
+<line x1='80' x2='410' y1='350' y2='350' stroke='#8a8983' stroke-width='1'/>
+<line x1='80' x2='80' y1='90' y2='350' stroke='#8a8983' stroke-width='1'/>
+<text x='80' y='78' font-size='14' font-weight='600' fill='#0b0b0b'>Raw features → predicts  +  (2 of 3)</text>
+<text x='245.0' y='388' font-size='12.5' fill='#52514e' text-anchor='middle'>income ($1000/yr)</text>
+<text x='36' y='220.0' font-size='12.5' fill='#52514e' text-anchor='middle' transform='rotate(-90 36 220.0)'># of kids</text>
+<path clip-path='url(#c3)' d='M214.1,263.3 L203.8,220.0' fill='none' stroke='#0b0b0b' stroke-width='1.5' stroke-linejoin='round' stroke-linecap='round' opacity='1' stroke-dasharray='4 3'/>
+<path clip-path='url(#c3)' d='M214.1,263.3 L245.0,263.3' fill='none' stroke='#0b0b0b' stroke-width='1.5' stroke-linejoin='round' stroke-linecap='round' opacity='1' stroke-dasharray='4 3'/>
+<path clip-path='url(#c3)' d='M214.1,263.3 L183.1,133.3' fill='none' stroke='#0b0b0b' stroke-width='1.5' stroke-linejoin='round' stroke-linecap='round' opacity='1' stroke-dasharray='4 3'/>
+<circle cx='121.2' cy='176.7' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='121.2' cy='220.0' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='203.8' cy='220.0' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='162.5' cy='306.7' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='265.6' cy='263.3' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='368.8' cy='306.7' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<path d='M183.1,126.3 L189.8,138.2 L176.5,138.2 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M255.3,169.7 L262.0,181.6 L248.7,181.6 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M245.0,256.3 L251.7,268.2 L238.3,268.2 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M327.5,213.0 L334.1,224.9 L320.9,224.9 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M348.1,256.3 L354.8,268.2 L341.5,268.2 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M379.1,169.7 L385.7,181.6 L372.4,181.6 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M296.6,299.7 L303.2,311.6 L289.9,311.6 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<circle cx='203.8' cy='220.0' r='12' fill='none' stroke='#0b0b0b' stroke-width='1.6'/>
+<circle cx='245.0' cy='263.3' r='12' fill='none' stroke='#0b0b0b' stroke-width='1.6'/>
+<circle cx='183.1' cy='133.3' r='12' fill='none' stroke='#0b0b0b' stroke-width='1.6'/>
+<polygon points='214.1,254.3 216.4,260.1 222.6,260.6 217.9,264.6 219.4,270.6 214.1,267.4 208.8,270.6 210.2,264.6 205.5,260.6 211.7,260.1' fill='#0b0b0b' stroke='#fcfcfb' stroke-width='1.5'/>
+<defs><clipPath id='c4'><rect x='500' y='90' width='330' height='260'/></clipPath></defs>
+<line x1='500' x2='830' y1='350.0' y2='350.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='492' y='354.0' font-size='12' fill='#52514e' text-anchor='end'>-2</text>
+<line x1='500' x2='830' y1='285.0' y2='285.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='492' y='289.0' font-size='12' fill='#52514e' text-anchor='end'>-1</text>
+<line x1='500' x2='830' y1='220.0' y2='220.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='492' y='224.0' font-size='12' fill='#52514e' text-anchor='end'>0</text>
+<line x1='500' x2='830' y1='155.0' y2='155.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='492' y='159.0' font-size='12' fill='#52514e' text-anchor='end'>1</text>
+<line x1='500' x2='830' y1='90.0' y2='90.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='492' y='94.0' font-size='12' fill='#52514e' text-anchor='end'>2</text>
+<line x1='500.0' x2='500.0' y1='90' y2='350' stroke='#e6e5e0' stroke-width='1'/>
+<text x='500.0' y='368' font-size='12' fill='#52514e' text-anchor='middle'>-2</text>
+<line x1='582.5' x2='582.5' y1='90' y2='350' stroke='#e6e5e0' stroke-width='1'/>
+<text x='582.5' y='368' font-size='12' fill='#52514e' text-anchor='middle'>-1</text>
+<line x1='665.0' x2='665.0' y1='90' y2='350' stroke='#e6e5e0' stroke-width='1'/>
+<text x='665.0' y='368' font-size='12' fill='#52514e' text-anchor='middle'>0</text>
+<line x1='747.5' x2='747.5' y1='90' y2='350' stroke='#e6e5e0' stroke-width='1'/>
+<text x='747.5' y='368' font-size='12' fill='#52514e' text-anchor='middle'>1</text>
+<line x1='830.0' x2='830.0' y1='90' y2='350' stroke='#e6e5e0' stroke-width='1'/>
+<text x='830.0' y='368' font-size='12' fill='#52514e' text-anchor='middle'>2</text>
+<line x1='500' x2='830' y1='350' y2='350' stroke='#8a8983' stroke-width='1'/>
+<line x1='500' x2='500' y1='90' y2='350' stroke='#8a8983' stroke-width='1'/>
+<text x='500' y='78' font-size='14' font-weight='600' fill='#0b0b0b'>Standardized (z-scores) → predicts  −  (2 of 3)</text>
+<text x='665.0' y='388' font-size='12.5' fill='#52514e' text-anchor='middle'>income (z)</text>
+<text x='456' y='220.0' font-size='12.5' fill='#52514e' text-anchor='middle' transform='rotate(-90 456 220.0)'># of kids (z)</text>
+<path clip-path='url(#c4)' d='M628.5,255.6 L658.2,255.6' fill='none' stroke='#0b0b0b' stroke-width='1.5' stroke-linejoin='round' stroke-linecap='round' opacity='1' stroke-dasharray='4 3'/>
+<path clip-path='url(#c4)' d='M628.5,255.6 L677.9,255.6' fill='none' stroke='#0b0b0b' stroke-width='1.5' stroke-linejoin='round' stroke-linecap='round' opacity='1' stroke-dasharray='4 3'/>
+<path clip-path='url(#c4)' d='M628.5,255.6 L618.6,204.2' fill='none' stroke='#0b0b0b' stroke-width='1.5' stroke-linejoin='round' stroke-linecap='round' opacity='1' stroke-dasharray='4 3'/>
+<circle cx='539.5' cy='152.8' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='539.5' cy='204.2' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='618.6' cy='204.2' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='579.0' cy='307.0' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='677.9' cy='255.6' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='776.8' cy='307.0' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<path d='M598.8,94.3 L605.5,106.2 L592.2,106.2 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M668.0,145.8 L674.7,157.7 L661.4,157.7 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M658.2,248.6 L664.8,260.5 L651.5,260.5 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M737.3,197.2 L743.9,209.1 L730.6,209.1 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M757.0,248.6 L763.7,260.5 L750.4,260.5 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M786.7,145.8 L793.4,157.7 L780.1,157.7 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M707.6,300.0 L714.2,311.9 L700.9,311.9 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<circle cx='658.2' cy='255.6' r='12' fill='none' stroke='#0b0b0b' stroke-width='1.6'/>
+<circle cx='677.9' cy='255.6' r='12' fill='none' stroke='#0b0b0b' stroke-width='1.6'/>
+<circle cx='618.6' cy='204.2' r='12' fill='none' stroke='#0b0b0b' stroke-width='1.6'/>
+<polygon points='628.5,246.6 630.9,252.3 637.0,252.8 632.3,256.9 633.8,262.9 628.5,259.7 623.2,262.9 624.6,256.9 619.9,252.8 626.1,252.3' fill='#0b0b0b' stroke='#fcfcfb' stroke-width='1.5'/>
+<circle cx='30' cy='416' r='6' fill='#2a78d6'/>
+<text x='40' y='420' font-size='12.5' fill='#52514e'>class −</text>
+<path d='M103,409 L109.6,421 L96.4,421 Z' fill='#eb6834'/>
+<text x='113' y='420' font-size='12.5' fill='#52514e'>class +</text>
+<text x='170' y='421' font-size='16' fill='#0b0b0b'>★</text>
+<text x='188' y='420' font-size='12.5' fill='#52514e'>query (130, 2)</text>
+<circle cx='301' cy='416' r='7' fill='none' stroke='#0b0b0b' stroke-width='1.6'/>
+<text x='312' y='420' font-size='12.5' fill='#52514e'>3 nearest neighbours</text>
+</svg>

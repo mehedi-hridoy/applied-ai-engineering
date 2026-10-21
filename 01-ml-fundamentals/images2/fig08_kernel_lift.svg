@@ -1,0 +1,84 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='860' height='410' viewBox='0 0 860 410' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif'>
+<rect width='860' height='410' fill='#fcfcfb' rx='8'/>
+<text x='24' y='30' font-size='16' font-weight='700' fill='#0b0b0b'>The idea behind the kernel trick</text>
+<defs><clipPath id='c13'><rect x='60' y='90' width='330' height='60'/></clipPath></defs>
+<line x1='83.6' x2='83.6' y1='90' y2='150' stroke='#e6e5e0' stroke-width='1'/>
+<text x='83.6' y='168' font-size='12' fill='#52514e' text-anchor='middle'>-3</text>
+<line x1='130.7' x2='130.7' y1='90' y2='150' stroke='#e6e5e0' stroke-width='1'/>
+<text x='130.7' y='168' font-size='12' fill='#52514e' text-anchor='middle'>-2</text>
+<line x1='177.9' x2='177.9' y1='90' y2='150' stroke='#e6e5e0' stroke-width='1'/>
+<text x='177.9' y='168' font-size='12' fill='#52514e' text-anchor='middle'>-1</text>
+<line x1='225.0' x2='225.0' y1='90' y2='150' stroke='#e6e5e0' stroke-width='1'/>
+<text x='225.0' y='168' font-size='12' fill='#52514e' text-anchor='middle'>0</text>
+<line x1='272.1' x2='272.1' y1='90' y2='150' stroke='#e6e5e0' stroke-width='1'/>
+<text x='272.1' y='168' font-size='12' fill='#52514e' text-anchor='middle'>1</text>
+<line x1='319.3' x2='319.3' y1='90' y2='150' stroke='#e6e5e0' stroke-width='1'/>
+<text x='319.3' y='168' font-size='12' fill='#52514e' text-anchor='middle'>2</text>
+<line x1='366.4' x2='366.4' y1='90' y2='150' stroke='#e6e5e0' stroke-width='1'/>
+<text x='366.4' y='168' font-size='12' fill='#52514e' text-anchor='middle'>3</text>
+<line x1='60' x2='390' y1='150' y2='150' stroke='#8a8983' stroke-width='1'/>
+<line x1='60' x2='60' y1='90' y2='150' stroke='#8a8983' stroke-width='1'/>
+<text x='60' y='78' font-size='14' font-weight='600' fill='#0b0b0b'>1-D: no single threshold works</text>
+<text x='225.0' y='188' font-size='12.5' fill='#52514e' text-anchor='middle'>x</text>
+<path d='M83.6,113.0 L90.2,124.9 L76.9,124.9 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M107.1,113.0 L113.8,124.9 L100.5,124.9 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M130.7,113.0 L137.4,124.9 L124.1,124.9 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<circle cx='177.9' cy='120.0' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='201.4' cy='120.0' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='225.0' cy='120.0' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='248.6' cy='120.0' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='272.1' cy='120.0' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<path d='M319.3,113.0 L325.9,124.9 L312.6,124.9 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M342.9,113.0 L349.5,124.9 L336.2,124.9 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M366.4,113.0 L373.1,124.9 L359.8,124.9 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<defs><clipPath id='c14'><rect x='480' y='90' width='330' height='260'/></clipPath></defs>
+<line x1='480' x2='810' y1='337.6' y2='337.6' stroke='#e6e5e0' stroke-width='1'/>
+<text x='472' y='341.6' font-size='12' fill='#52514e' text-anchor='end'>0</text>
+<line x1='480' x2='810' y1='288.1' y2='288.1' stroke='#e6e5e0' stroke-width='1'/>
+<text x='472' y='292.1' font-size='12' fill='#52514e' text-anchor='end'>2</text>
+<line x1='480' x2='810' y1='238.6' y2='238.6' stroke='#e6e5e0' stroke-width='1'/>
+<text x='472' y='242.6' font-size='12' fill='#52514e' text-anchor='end'>4</text>
+<line x1='480' x2='810' y1='189.0' y2='189.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='472' y='193.0' font-size='12' fill='#52514e' text-anchor='end'>6</text>
+<line x1='480' x2='810' y1='139.5' y2='139.5' stroke='#e6e5e0' stroke-width='1'/>
+<text x='472' y='143.5' font-size='12' fill='#52514e' text-anchor='end'>8</text>
+<line x1='480' x2='810' y1='90.0' y2='90.0' stroke='#e6e5e0' stroke-width='1'/>
+<text x='472' y='94.0' font-size='12' fill='#52514e' text-anchor='end'>10</text>
+<line x1='503.6' x2='503.6' y1='90' y2='350' stroke='#e6e5e0' stroke-width='1'/>
+<text x='503.6' y='368' font-size='12' fill='#52514e' text-anchor='middle'>-3</text>
+<line x1='550.7' x2='550.7' y1='90' y2='350' stroke='#e6e5e0' stroke-width='1'/>
+<text x='550.7' y='368' font-size='12' fill='#52514e' text-anchor='middle'>-2</text>
+<line x1='597.9' x2='597.9' y1='90' y2='350' stroke='#e6e5e0' stroke-width='1'/>
+<text x='597.9' y='368' font-size='12' fill='#52514e' text-anchor='middle'>-1</text>
+<line x1='645.0' x2='645.0' y1='90' y2='350' stroke='#e6e5e0' stroke-width='1'/>
+<text x='645.0' y='368' font-size='12' fill='#52514e' text-anchor='middle'>0</text>
+<line x1='692.1' x2='692.1' y1='90' y2='350' stroke='#e6e5e0' stroke-width='1'/>
+<text x='692.1' y='368' font-size='12' fill='#52514e' text-anchor='middle'>1</text>
+<line x1='739.3' x2='739.3' y1='90' y2='350' stroke='#e6e5e0' stroke-width='1'/>
+<text x='739.3' y='368' font-size='12' fill='#52514e' text-anchor='middle'>2</text>
+<line x1='786.4' x2='786.4' y1='90' y2='350' stroke='#e6e5e0' stroke-width='1'/>
+<text x='786.4' y='368' font-size='12' fill='#52514e' text-anchor='middle'>3</text>
+<line x1='480' x2='810' y1='350' y2='350' stroke='#8a8983' stroke-width='1'/>
+<line x1='480' x2='480' y1='90' y2='350' stroke='#8a8983' stroke-width='1'/>
+<text x='480' y='78' font-size='14' font-weight='600' fill='#0b0b0b'>Lift with φ(x) = (x, x²): now a line separates</text>
+<text x='645.0' y='388' font-size='12.5' fill='#52514e' text-anchor='middle'>x</text>
+<text x='436' y='220.0' font-size='12.5' fill='#52514e' text-anchor='middle' transform='rotate(-90 436 220.0)'>x²</text>
+<path clip-path='url(#c14)' d='M480.0,34.3 L482.4,42.9 L484.7,51.4 L487.1,59.7 L489.4,68.0 L491.8,76.1 L494.1,84.1 L496.5,91.9 L498.9,99.7 L501.2,107.3 L503.6,114.8 L505.9,122.1 L508.3,129.4 L510.6,136.5 L513.0,143.5 L515.4,150.4 L517.7,157.1 L520.1,163.7 L522.4,170.2 L524.8,176.6 L527.1,182.9 L529.5,189.0 L531.9,195.0 L534.2,200.9 L536.6,206.6 L538.9,212.3 L541.3,217.8 L543.6,223.2 L546.0,228.4 L548.4,233.6 L550.7,238.6 L553.1,243.5 L555.4,248.2 L557.8,252.9 L560.1,257.4 L562.5,261.8 L564.9,266.1 L567.2,270.2 L569.6,274.2 L571.9,278.1 L574.3,281.9 L576.6,285.6 L579.0,289.1 L581.4,292.5 L583.7,295.8 L586.1,298.9 L588.4,302.0 L590.8,304.9 L593.1,307.7 L595.5,310.3 L597.9,312.9 L600.2,315.3 L602.6,317.6 L604.9,319.7 L607.3,321.8 L609.6,323.7 L612.0,325.5 L614.4,327.2 L616.7,328.7 L619.1,330.1 L621.4,331.4 L623.8,332.6 L626.1,333.7 L628.5,334.6 L630.9,335.4 L633.2,336.1 L635.6,336.6 L637.9,337.1 L640.3,337.4 L642.6,337.6 L645.0,337.6 L647.4,337.6 L649.7,337.4 L652.1,337.1 L654.4,336.6 L656.8,336.1 L659.1,335.4 L661.5,334.6 L663.9,333.7 L666.2,332.6 L668.6,331.4 L670.9,330.1 L673.3,328.7 L675.6,327.2 L678.0,325.5 L680.4,323.7 L682.7,321.8 L685.1,319.7 L687.4,317.6 L689.8,315.3 L692.1,312.9 L694.5,310.3 L696.9,307.7 L699.2,304.9 L701.6,302.0 L703.9,298.9 L706.3,295.8 L708.6,292.5 L711.0,289.1 L713.4,285.6 L715.7,281.9 L718.1,278.1 L720.4,274.2 L722.8,270.2 L725.1,266.1 L727.5,261.8 L729.9,257.4 L732.2,252.9 L734.6,248.2 L736.9,243.5 L739.3,238.6 L741.6,233.6 L744.0,228.4 L746.4,223.2 L748.7,217.8 L751.1,212.3 L753.4,206.6 L755.8,200.9 L758.1,195.0 L760.5,189.0 L762.9,182.9 L765.2,176.6 L767.6,170.2 L769.9,163.7 L772.3,157.1 L774.6,150.4 L777.0,143.5 L779.4,136.5 L781.7,129.4 L784.1,122.1 L786.4,114.8 L788.8,107.3 L791.1,99.7 L793.5,91.9 L795.9,84.1 L798.2,76.1 L800.6,68.0 L802.9,59.7 L805.3,51.4 L807.6,42.9 L810.0,34.3' fill='none' stroke='#e6e5e0' stroke-width='1.5' stroke-linejoin='round' stroke-linecap='round' opacity='1'/>
+<path clip-path='url(#c14)' d='M480.0,275.7 L810.0,275.7' fill='none' stroke='#6250d6' stroke-width='2' stroke-linejoin='round' stroke-linecap='round' opacity='1'/>
+<text x='805.3' y='267.7' font-size='12' fill='#6250d6' text-anchor='end' font-weight='400' stroke='#fcfcfb' stroke-width='4' stroke-linejoin='round' paint-order='stroke'>x² = 2.5</text>
+<path d='M503.6,107.8 L510.2,119.7 L496.9,119.7 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M527.1,175.9 L533.8,187.8 L520.5,187.8 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M550.7,231.6 L557.4,243.5 L544.1,243.5 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<circle cx='597.9' cy='312.9' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='621.4' cy='331.4' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='645.0' cy='337.6' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='668.6' cy='331.4' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<circle cx='692.1' cy='312.9' r='6' fill='#2a78d6' stroke='#fcfcfb' stroke-width='2'/>
+<path d='M739.3,231.6 L745.9,243.5 L732.6,243.5 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M762.9,175.9 L769.5,187.8 L756.2,187.8 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<path d='M786.4,107.8 L793.1,119.7 L779.8,119.7 Z' fill='#eb6834' stroke='#fcfcfb' stroke-width='2' stroke-linejoin='round'/>
+<circle cx='66' cy='226' r='6' fill='#2a78d6'/>
+<text x='76' y='230' font-size='12.5' fill='#52514e'>class −  (|x| &lt; 2)</text>
+<path d='M216,219 L222.6,231 L209.4,231 Z' fill='#eb6834'/>
+<text x='226' y='230' font-size='12.5' fill='#52514e'>class +  (|x| ≥ 2)</text>
+</svg>
